@@ -8,7 +8,9 @@
 3. Extract the downloaded ZIP anywhere you want.
 4. Open the extracted folder.
 5. Double-click `Start Windows.bat`.
-
+5.1 If you in Linux
+   `chmod +x "./Start Linux.sh"`
+   `"./Start Linux.sh"`
 On the first launch, the launcher automatically checks GitHub Releases, downloads the latest `Tenacity.jar`, and starts Tenacity.
 
 ### Folder Layout
@@ -26,6 +28,7 @@ Most users only need to double-click `Start Windows.bat`. Do not move or delete 
 ### Auto Update
 
 `Start Windows.bat` checks for updates before launching:
+
 
 - If `Tenacity.jar` is missing, it downloads the latest version automatically.
 - If GitHub Releases has a newer release tag, it updates `Tenacity.jar`.
