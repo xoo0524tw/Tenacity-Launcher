@@ -1,3 +1,5 @@
+
+
 # Tenacity Launcher
 
 ### Installation For New Users
@@ -21,6 +23,7 @@ Tenacity-Launcher/
   save/               Minecraft/Tenacity settings, accounts, screenshots, ViaMCP settings
   Tenacity.jar         Tenacity core, downloaded automatically after the first launch
   Start Windows.bat   Windows launcher script
+  Start Linux.sh      Linux launcher script
 ```
 
 Most users only need to double-click `Start Windows.bat`. Do not move or delete files inside `files/`.
